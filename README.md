@@ -1,16 +1,32 @@
-# React + Vite
+#  Mobile Messaging App Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fast, responsive, modern landing page for a mobile messaging application—designed with a clean, minimal aesthetic inspired by contemporary mobile UI showcases.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##  What Was Done in This Project
 
-## React Compiler
+* **Tailwind CSS v4 Migration:** Integrated Tailwind v4 via the modern `@tailwindcss/vite` plugin, eliminating runtime script dependencies for maximum build performance.
+* **Mobile-First Responsive Layout:** Designed fluid layouts using standard responsive breakpoints to guarantee seamless presentation on phones, tablets, and desktop displays.
+* **Layout Integrity Fixes:** Enforced strict viewport handling (`min-h-screen`, `overflow-x-hidden`) to eliminate mobile horizontal scroll bugs and broken touch interactions.
+* **Minimalist UI/UX:** Formatted project documentation and component structures around high-conversion, clean UI patterns (hero visual, feature grid, and device mockups).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+* **Frontend:** React 19 + Vite
+* **Styling:** Tailwind CSS v4
+* **Icons:** Lucide React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Quick Start
+
+```bash
+# Install dependencies
+npm install
+```
+inspo link 
+https://dribbble.com/shots/26292547-Clean-Minimal-Landing-for-Mobile-Messaging-App
+
+# Run dev server
+npm run dev
