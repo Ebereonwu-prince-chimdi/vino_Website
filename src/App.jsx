@@ -38,7 +38,6 @@ function App() {
     }
   };
 
-  // Fetch collection
   const fetchCollection = async () => {
     setCollectionLoading(true);
     setCollectionError("");
@@ -60,13 +59,13 @@ function App() {
     }
   };
 
-  // Fetch both when page loads
+ 
   useEffect(() => {
     fetchRandomQuote();
     fetchCollection();
   }, []);
 
-  // When a card is clicked
+ 
   const handleSelectQuote = (selectedQuote) => {
     setQuote(selectedQuote);
     setQuoteError("");
